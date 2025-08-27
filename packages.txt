@@ -1,0 +1,68 @@
+
+# =============================================================================
+# SPARBS packages.txt
+# Grundausstattung für Arch / CachyOS
+# =============================================================================
+
+# --- Basis-Tools ---
+base-devel     # Wichtige Build-Tools (gcc, make, etc.)
+git            # Versionsverwaltung
+wget           # Datei-Downloads
+curl           # HTTP-Client
+htop           # Prozess-Überwachung
+neofetch       # Systeminfo im Terminal
+zip            # ZIP-Archivierung
+unzip          # Entpacken von ZIP-Dateien
+p7zip          # Unterstützung für 7z Archive
+
+# --- Shell & Productivity ---
+zsh            # Alternative Shell
+fzf            # Fuzzy Finder
+ripgrep        # Schnelle Textsuche (besser als grep)
+fd             # Schnelles Datei-Finden (besser als find)
+exa            # Moderner Ersatz für ls
+bat            # Syntax-Highlighting für cat
+tmux           # Terminal-Multiplexer
+
+# --- Editoren ---
+vim            # Klassischer Editor
+neovim         # Moderner Vim-Fork
+nano           # Einfacher Editor (zur Sicherheit)
+
+# --- Entwicklung ---
+python         # Python Interpreter
+python-pip     # Python Paketmanager
+go             # Programmiersprache Go
+nodejs         # Node.js Runtime
+npm            # Node.js Paketmanager
+rust           # Rust Programmiersprache
+cargo          # Rust Paketmanager
+
+# --- Git / DevOps Helfer ---
+docker         # Container Engine
+docker-compose # Container-Orchestrierung
+make           # Build Automation
+cmake          # Build-System
+
+# --- Nützliche CLI-Tools ---
+jq             # JSON Parser
+tree           # Verzeichnisstruktur anzeigen
+rsync          # Datei-Sync und Backup
+openssh        # SSH-Client & Server
+wgetpaste      # Schnelles Hochladen von Text/Logs
+
+# --- GUI Programme ---
+firefox        # Browser
+vlc            # Medienplayer
+gimp           # Bildbearbeitung
+thunderbird    # E-Mail Client
+
+# --- System & Extras ---
+man-db         # Handbuchseiten
+pacman-contrib # Tools für Pacman (z.B. paccache)
+ufw            # Einfache Firewall
+ntfs-3g        # NTFS Support für externe Platten
+
+# =============================================================================
+# Ende der Liste
+# =============================================================================
